@@ -1,0 +1,51 @@
+.navBarContainer{
+    display: flex;
+    background-color: white;
+    box-shadow: 1px 1px 1px rgb(155, 155, 155);
+    gap: 20px;
+    padding: 10px;
+    z-index: 10;
+    background-color: white; /* o altro colore visibile */
+}
+
+.title{
+    color: #D97706;
+    margin: 0;
+    text-shadow: 1px 1px 1px black;
+    font-size: 36px; /* leggermente più piccolo per navbar */
+}
+
+.menuContent{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu{
+    width: fit-content;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    text-decoration: none;
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+    padding: 20px;
+    gap: 20px;
+}
+
+.menu li a{
+    color: #D97706;
+    text-decoration: none;
+    transition: font-size 0.3s ease;
+}
+
+.menu li a:hover {
+    background-color: #f4e3c1;
+    padding: 10px;
+    border-radius: 20px;
+    color: #a75b05;
+  }
+  

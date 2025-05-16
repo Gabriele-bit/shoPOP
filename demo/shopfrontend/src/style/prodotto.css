@@ -1,0 +1,74 @@
+.prodotto{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    align-self: center;
+    border-radius: 20px;
+    gap: 20px;
+    width: 50%;
+    justify-self: center;
+}
+
+.prodName{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid black;
+    flex: 1;
+}
+
+.prodName p{
+    font-weight: bold;
+    font-size: 20px;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.eliminaButton{
+    display: flex;
+    border-style: none;
+    background-color: unset;
+    width: 10%;
+    justify-content: center;
+    align-self: self-end;
+    font-weight: bold;
+}
+
+.eliminaButton:hover{
+    color: red;
+}
+
+
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    flex: 1;
+}
+
+.buttons button{
+    color: black;
+    font-weight: bold;
+    background-color: white;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.buttons button:hover{
+    background-color: #D97706;
+    color: white;
+}
+
+
+
+.esauritiContainer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    justify-self: center;
+  }
