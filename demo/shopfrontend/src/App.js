@@ -21,6 +21,7 @@ function App() {
           <form onSubmit={handleSubmit}>
             <input
               type="text"
+              maxLength={45} 
               className='inputBar'
               value={nuovoProdotto}
               placeholder="Cosa devi acquistare?"

@@ -10,7 +10,7 @@ function NavBar() {
                         <NavLink to={"/"} className={({ isActive }) => isActive ? "active" : ""}>Lista </NavLink>
                     </li>
                     <li>
-                        <NavLink to={"/esauriti"} className={({ isActive }) => isActive ? "active" : ""}>Prodotti essauriti</NavLink>
+                        <NavLink to={"/esauriti"} className={({ isActive }) => isActive ? "active" : ""}>Prodotti esauriti</NavLink>
                     </li>
                     <li>
                          <NavLink to={"/acquisti"} className={({ isActive }) => isActive ? "active" : ""}>Acquistati</NavLink>

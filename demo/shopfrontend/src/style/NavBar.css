@@ -48,4 +48,23 @@
     border-radius: 20px;
     color: #a75b05;
   }
+
+  @media screen and (max-width: 700px) {
+  .navBarContainer{
+    flex-direction: column;
+  }
+
+  .title{
+    font-size: 50px;
+  }
+
+  .menu{
+    background-color: #D97706;
+    border-radius: 30px;
+  }
+
+  .menu li a{
+        color: white;
+  }
+}
   
