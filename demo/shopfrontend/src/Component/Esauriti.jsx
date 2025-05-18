@@ -7,7 +7,7 @@ import "../App.css";
 function Esauriti() {
     const { esauriti, rimuoviProdotto } = useContext(GestioneProdotti);
     return (
-        <div>
+        <div className="App">
             <NavBar></NavBar>
             <div className="esauritiContainer">
                 {esauriti.length > 0 ? (
