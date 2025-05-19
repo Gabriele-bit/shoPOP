@@ -8,24 +8,20 @@ function Acquistati() {
     return (
         <div className='App'>
             <NavBar />
-            <div className='container'>
-                <div className='prodottiContainer'>
-                    <ul>
-                        {acquistati.length > 0 ? (
-                            acquistati.map((prodotto, index) => (
-                                <Prodotto
-                                    esaurito={true}
-                                    acquistato={true}
-                                    key={index} // AGGIUNGI QUESTA RIGA
-                                    indice={prodotto.id}
-                                    nome={prodotto.nome}
-                                ></Prodotto>
-                            ))
-                        ) : (
-                            <p>Nessun prodotto</p>
-                        )}
-                    </ul>
-                </div>
+            <div className='prodottiContainer'>
+                    {acquistati.length > 0 ? (
+                        acquistati.map((prodotto, index) => (
+                            <Prodotto
+                                esaurito={true}
+                                acquistato={true}
+                                key={index} // AGGIUNGI QUESTA RIGA
+                                indice={prodotto.id}
+                                nome={prodotto.nome}
+                            ></Prodotto>
+                        ))
+                    ) : (
+                        <p>Nessun prodotto</p>
+                    )}
             </div>
         </div>
     )

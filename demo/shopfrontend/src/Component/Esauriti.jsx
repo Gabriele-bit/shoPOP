@@ -9,7 +9,7 @@ function Esauriti() {
     return (
         <div className="App">
             <NavBar></NavBar>
-            <div className="esauritiContainer">
+            <div className="prodottiContainer">
                 {esauriti.length > 0 ? (
                     esauriti.map((prodotto, index) => (
                         <Prodotto
